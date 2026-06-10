@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #e4edf6;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 80px;
+    background: white;
+    border-bottom: 1px solid #f1f5f9;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2563eb;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo i{
+    background: #2563eb;
+    color: white;
+    padding: 10px;
+    border-radius: 12px;
+}
+nav{
+    display: flex;
+    gap: 32px;
+}
+nav a{
+    
+    text-decoration: none;
+    color: #333;
+    
+}
+.nav a i{
+    margin-right: 8px;
+}
+.hero{
+    text-align: center;
+    padding: 80px 20px 60px;
+}
+.hero h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.1;
+    max-width: 900px;
+    margin: 0 auto 30px;
+}
+.hero p{
+    max-width: 700px;
+    margin: 0 auto 35px;
+    font-size: 22px;
+    line-height: 1.7;
+    color: #6b7280;
+}
+.btn-sintomas{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 18px 38px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+ .btn-emergencia{
+    background: #f33333;
+    color: white;
+    border: none;
+    padding: 18px 38px;
+    border-radius: 12px;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: bold;
+ }
+.como-funciona{
+    text-align: center;
+    padding: 30px 20px;
+    font-weight: bold;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+margin-top: 50px;
+}
+.card{
+    background: white;
+    width: 330px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+.card i{
+    font-size: 32px;
+    color: #60a5fa;
+    margin-bottom: 20px;
+}
+.card h3{
+    font-size: 28px;
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+.card h4{
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b7280;
+    line-height: 1.6;
+}
+.sobre{
+    max-width: 1100px;
+    margin: 80px auto;
+    background: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.086);
+}
+.sobre i{
+    font-size: 40px;
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+.alerta{
+    background-color: #e4edf6;
+    border: 2px solid #de1515;
+    color: #b40b0b;
+    padding: 18px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 35px;
+    font-size: 16px;
+    font-weight: 500;
+}
